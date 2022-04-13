@@ -1,0 +1,10 @@
+.body {
+  position: relative;
+  background: rgba(0, 0, 0, .8);
+  height: 2779px;
+  width: 720px;
+}
+
+.x-center {
+  margin: auto;
+}
