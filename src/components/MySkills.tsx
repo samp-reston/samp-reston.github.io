@@ -1,5 +1,4 @@
 import React from 'react'
-import '../styles/MySkills.css'
 
 function MySkills() {
   return (

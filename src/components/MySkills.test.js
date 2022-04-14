@@ -1,9 +1,9 @@
 const { render, screen } = require("@testing-library/react")
-import Portfolio from './Portfolio'
+import MySkills from "./MySkills"
 
 test('heading is visible', () => {
-  render(<Portfolio />)
+  render(<MySkills />)
 
-  const heading = 'Portfolio'
+  const heading = 'My Skills'
   screen.getByText(heading)
 })
