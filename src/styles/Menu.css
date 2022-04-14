@@ -1,0 +1,11 @@
+.menu {
+  position: absolute;
+  background: rgba(0, 6, 37, .2);
+  min-width: 64px;
+  width: 20%;
+  max-width: 16rem;
+  height: 30rem;
+  border-radius: 0 0 25px 0;
+  border-right: 1px solid #004762;
+  border-bottom: 1px solid #004762;
+}

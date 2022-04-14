@@ -2,8 +2,8 @@
   position: relative;
   background: rgba(0, 0, 0, .2);
   height: 2779px;
-  width: 720px;
-  color: white;
+  width: 60%;
+  max-width: 720px;
 }
 
 .x-center {

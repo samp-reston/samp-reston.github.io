@@ -9,7 +9,7 @@ function AboutMe() {
         <br /><br />
         I'm excited to learn new things and embrace new opportunities. I like to help others and develop new talent, as I believe this is one of the best ways to develop yourself.
         <br /><br />
-        Oh and I love tennis, sim-racing and Formula 1.
+        Oh, and I love tennis, sim-racing and Formula 1.
       </p>
     </div>
   )
