@@ -1,5 +1,4 @@
 import React from 'react'
-import '../styles/Menu.css'
 import { Divide as Hamburger } from 'hamburger-react'
 
 import Navigation from './Navigation'

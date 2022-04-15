@@ -16,7 +16,6 @@ function Body() {
       <MySkills />
       <Portfolio />
       <Blog />
-      <div className='filler' />
       <Footer />
     </div>
   )

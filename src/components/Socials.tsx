@@ -1,5 +1,4 @@
 import React from 'react'
-import '../styles/Socials.css'
 
 import devToLogo from '../assets/BxlDevTo.svg'
 import github from '../assets/BxlGithub.svg'
