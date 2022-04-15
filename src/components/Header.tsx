@@ -7,7 +7,7 @@ function Header() {
         Samuel Preston
       </h1>
       <h3 className='secondary-title'>
-        Full-Stack Engineer
+        Front-End Engineer
       </h3>
     </div>
   )
