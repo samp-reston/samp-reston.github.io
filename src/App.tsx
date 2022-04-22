@@ -23,7 +23,9 @@ function App() {
           toggled={isOpen} toggle={setOpen}
         />
       </div>
-      {isOpen ? <Menu /> : ''}
+      <div id='menu' className={`${isOpen}`}>
+        <Menu />
+      </div>
       <Body />
     </>
   );

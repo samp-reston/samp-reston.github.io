@@ -5,10 +5,10 @@ import Socials from './Socials'
 
 function Menu() {
   return (
-    <div className="menu">
+    <>
       <Navigation />
       <Socials />
-    </div>
+    </>
   )
 }
 
