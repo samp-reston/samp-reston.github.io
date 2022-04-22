@@ -12,7 +12,7 @@ function App() {
     <>
       <div
         style={{
-          position: 'absolute',
+          position: 'fixed',
           zIndex: '2'
         }}
       >

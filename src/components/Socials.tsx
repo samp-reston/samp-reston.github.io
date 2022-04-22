@@ -7,9 +7,9 @@ import linkedin from '../assets/BxlLinkedin.svg'
 function Socials() {
   return (
     <nav className='socials x-center'>
-      <img src={devToLogo} alt="Dev.To Logo" />
-      <img src={github} alt="Dev.To Logo" />
-      <img src={linkedin} alt="Dev.To Logo" />
+      <a href="https://dev.to/samp_reston" target="_blank"><img src={devToLogo} alt="Dev.To Logo" /></a>
+      <a href="https://github.com/samp-reston" target="_blank"><img src={github} alt="Github Logo" /></a>
+      <a href="https://www.linkedin.com/in/samp-reston/" target="_blank"><img src={linkedin} alt="LinkedIn Logo" /></a>
     </nav>
   )
 }

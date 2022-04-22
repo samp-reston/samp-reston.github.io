@@ -11,29 +11,27 @@ function Footer() {
       <h4 style={{
         fontWeight: 'normal'
       }}>
-        <i>
-          Back to Top
-        </i>
+        <a href="#"><i>Back to Top</i></a>
       </h4>
       <h4 style={{
         fontWeight: 'normal'
       }}>
-        About Me
+        <a href="#aboutme">About Me</a>
       </h4>
       <h4 style={{
         fontWeight: 'normal'
       }}>
-        My Skills
+        <a href="#myskills">My Skills</a>
       </h4>
       <h4 style={{
         fontWeight: 'normal'
       }}>
-        Portfolio
+        <a href="#projects">Portfolio</a>
       </h4>
       <h4 style={{
         fontWeight: 'normal'
       }}>
-        Blog
+        <a href="#blog">Blog</a>
       </h4>
       <h4 style={{
         fontWeight: 'normal'

@@ -58,7 +58,7 @@ p {
 }
 
 #menu {
-  position: absolute;
+  position: fixed;
   background: rgba(0, 6, 37, .2);
   min-width: 64px;
   width: 20%;
@@ -111,4 +111,8 @@ nav>h3 {
   display: flex;
   gap: 2rem;
   justify-content: center;
+}
+
+a {
+  text-decoration: none;
 }
