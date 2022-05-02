@@ -116,3 +116,10 @@ nav>h3 {
 a {
   text-decoration: none;
 }
+
+.header-socials {
+  filter: invert(16%) sepia(59%) saturate(2429%) hue-rotate(173deg) brightness(98%) contrast(102%);
+  display: flex;
+  margin-top: 1rem;
+  gap: 2rem;
+}
