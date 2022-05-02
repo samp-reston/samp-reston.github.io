@@ -1,4 +1,5 @@
 import React from 'react'
+import HeaderSocials from './HeaderSocials'
 
 function Header() {
   return (
@@ -9,6 +10,7 @@ function Header() {
       <h3 className='secondary-title'>
         Front-End Engineer
       </h3>
+      <HeaderSocials />
     </div>
   )
 }
