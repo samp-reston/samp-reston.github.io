@@ -1,0 +1,44 @@
+[
+  {
+    "sectionName": "About Me",
+    "content": [
+      "I design and make pixels for people to click on the internet.",
+      "I'm a trained engineer so I am very methodical and analytical. I believe in Test Driven Development to deliver maintainable software for increased user experience (UX).",
+      "I am a self-taught developer who started with Python to create automation scripts, but moved to Javascript to learn web development.",
+      "I'm eager to learn new frameworks and technologies to improve my skills and help make a brighter future."
+    ]
+  },
+  {
+    "sectionName": "My Skills",
+    "content": [
+      "React",
+      "Typescript",
+      "TailwindCSS for Styled-Components",
+      "NodeJS",
+      "Python",
+      "Websockets",
+      "REST APIs",
+      "Unit, Integration, and End-To-End Testing with React Testing Framework and Cypress"
+    ]
+  },
+  {
+    "sectionName": "Porfolio",
+    "content": [
+      {
+        "title": "Ansible within Domain Test Platform",
+        "thumbnailTitle" : "Ansible_logo.png",
+        "summary": "In-House tool to manage and track software versions and configurations to ensure traceability across 100+ assets.",
+        "description": [
+          "Ansible",
+          "GitLab & GitLab Pipelines",
+          "Powershell Scripting",
+          "Data Fetching and Dashboarding"
+        ]
+      }
+    ]
+  },
+  {
+    "sectionName": "Blog",
+    "content": ""
+  }
+]

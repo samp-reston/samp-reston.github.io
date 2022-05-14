@@ -10,18 +10,8 @@ function App() {
 
   return (
     <>
-      <div
-        style={{
-          position: 'fixed',
-          zIndex: '2'
-        }}
-      >
-        <Hamburger
-          size={20}
-          color='#004762'
-          rounded
-          toggled={isOpen} toggle={setOpen}
-        />
+      <div style={{ position: 'fixed', zIndex: '2' }}>
+        <Hamburger size={20} color='#004762' rounded toggled={isOpen} toggle={setOpen} />
       </div>
       <div id='menu' className={`${isOpen}`}>
         <Menu />
