@@ -3,7 +3,7 @@ import React from 'react'
 function AboutMe() {
   return (
     <div id="aboutme" className='content'>
-      <h2>About Me</h2>
+      <h2>About Myself</h2>
       <p>
         I design and make pretty buttons for people to link on the internet.
         <br /><br />
