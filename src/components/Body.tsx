@@ -1,4 +1,3 @@
-import React, { useEffect } from 'react'
 import '../styles/Body.css'
 
 import AboutMe from './AboutMe'

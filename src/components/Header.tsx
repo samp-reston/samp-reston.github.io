@@ -1,6 +1,3 @@
-import React from 'react'
-import HeaderSocials from './HeaderSocials'
-
 function Header() {
   return (
     <div className='title x-centre'>
