@@ -29,7 +29,7 @@
         "summary": "In-House tool to manage and track software versions and configurations to ensure traceability across 100+ assets.",
         "description": [
           "Ansible",
-          "GitLab & GitLab Pipelines",
+          "GitLab & CI/CD Pipelines",
           "Powershell Scripting",
           "Data Fetching and Dashboarding"
         ]
