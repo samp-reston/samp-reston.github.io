@@ -36,7 +36,8 @@
   text-align: right;
 }
 
-p {
+p,
+li {
   margin-top: 1em;
   line-height: 1.5em;
 }

@@ -7,7 +7,7 @@ function MySkills() {
   const { sectionName, content } = section
 
   const renderContent = () => {
-    return content.map((paragraph: string) => <p key={uuidv4()}>&#8226; {paragraph}</p>)
+    return content.map((paragraph: string) => <li key={uuidv4()}>{paragraph}</li>)
   }
 
   return (
