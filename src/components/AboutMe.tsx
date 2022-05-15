@@ -1,14 +1,19 @@
 import React from 'react'
+import { v4 as uuidv4 } from 'uuid'
+import { fetchSection } from '../api/contentAPI'
 
 function AboutMe() {
+  const section = fetchSection("About Me")
+  const { sectionName, content } = section
+
+  const renderContent = () => {
+    return content.map((paragraph: string) => <p key={uuidv4()}>{paragraph}</p>)
+  }
+
   return (
     <div id="aboutme" className='content'>
-      <h2>About Me</h2>
-      <p>
-        I design and make pretty buttons for people to link on the internet.
-        <br /><br />
-        I'm analytical and enthusiastic to learn and develop skills. I have always shown interest in web development ever since 2012 however I recently reignited that passion.
-      </p>
+      <h2>{sectionName}</h2>
+      {renderContent()}
     </div>
   )
 }

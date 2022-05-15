@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import '../styles/Body.css'
 
 import AboutMe from './AboutMe'
@@ -10,6 +10,7 @@ import MySkills from './MySkills'
 import Portfolio from './Portfolio'
 
 function Body() {
+
   return (
     <div className='body x-center'>
       <Header />
