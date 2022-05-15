@@ -37,7 +37,7 @@
 }
 
 p,
-li {
+content>li {
   margin-top: 1em;
   line-height: 1.5em;
 }
@@ -123,4 +123,30 @@ a {
   display: flex;
   margin-top: 1rem;
   gap: 2rem;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+h4 {
+  margin-top: 1rem;
+}
+
+.left-half {
+  width: 50%;
+}
+
+.right-half {
+  width: 50%;
+}
+
+li {
+  margin-top: 0.5rem;
+}
+
+.content>h4 {
+  margin-top: 3rem;
 }

@@ -22,17 +22,27 @@
     ]
   },
   {
-    "sectionName": "Porfolio",
+    "sectionName": "Portfolio",
     "content": [
       {
-        "title": "Ansible within Domain Test Platform",
-        "thumbnailTitle" : "Ansible_logo.png",
+        "title": "Ansible Deployment within Domain Test Platform",
         "summary": "In-House tool to manage and track software versions and configurations to ensure traceability across 100+ assets.",
         "description": [
           "Ansible",
           "GitLab & GitLab Pipelines",
           "Powershell Scripting",
           "Data Fetching and Dashboarding"
+        ]
+      },
+      {
+        "title": "Tennis League App",
+        "summary": "Compatible for both Android and iOS, you can invite friends to join leagues. Whether you're pro or casual, you can find new opponents or play with friends.",
+        "description": [
+          "React Native",
+          "SQL Queries & Database Design",
+          "REST APIs",
+          "Redux",
+          "Auth0"
         ]
       }
     ]
