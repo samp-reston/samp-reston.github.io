@@ -14,5 +14,5 @@ jobs:
 
       - name: Build to GitHub Page
         run: |
-        npm i
+        npm install
         npm run deploy
