@@ -147,6 +147,31 @@ li {
   margin-top: 0.5rem;
 }
 
-.content>h4 {
+.content>div>h4 {
   margin-top: 3rem;
+}
+
+.blog-thumbnail>img {
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+
+.blog-thumbnail {
+  margin-top: 1rem;
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.blog-thumbnail>h4 {
+  margin-top: 0;
+  margin-left: 1rem;
+}
+
+#blog>section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
 }

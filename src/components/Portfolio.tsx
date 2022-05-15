@@ -13,11 +13,11 @@ function Portfolio() {
       description: string[]
     }
     return content.map((project: Project) => (
-      <>
+      <div key={uuidv4()}>
         <h4>
           {project.title}
         </h4>
-        <section key={uuidv4()}>
+        <section>
           <div className='left-half'>
             <p>{project.summary}</p>
           </div>
@@ -28,7 +28,7 @@ function Portfolio() {
             {project.description.map((description: string) => <li key={uuidv4()}>{description}</li>)}
           </div>
         </section>
-      </>
+      </div>
     ))
   }
 
