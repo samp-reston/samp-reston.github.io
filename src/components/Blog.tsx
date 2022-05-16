@@ -1,19 +1,33 @@
 import React, { useEffect, useState } from 'react'
 import { v4 as uuidv4 } from 'uuid'
 
+import {
+  useQuery,
+  useMutation,
+  useQueryClient,
+  QueryClient,
+  QueryClientProvider,
+} from 'react-query'
+
+import { fetchDevToArticles } from '../api/devToAPI'
+
 function Blog() {
   const [myArticles, setMyArticles] = useState([])
 
-  useEffect(() => {
-    const username = 'samp_reston'
-    fetch(`https://dev.to/api/articles?username=${username}`)
-      .then((res) => res.json())
-      .then((json) => setMyArticles(json))
-  }, [])
+  const Articles = () => {
+    const queryClient = useQueryClient()
 
-  const renderArticles = () => {
-    if (!myArticles) return <></>
-    const latestArticles = myArticles.slice(0, 4)
+    const { data, status } = useQuery('devToArticles', fetchDevToArticles)
+
+    if (status === 'loading') {
+      return <p>Loading...</p>
+    }
+
+    if (status === 'error') {
+      return <p>Error!</p>
+    }
+
+    const latestArticles: [] = data.slice(0, 4)
     return latestArticles.map((article) => {
       const { url, social_image, title } = article
       return (
@@ -29,7 +43,7 @@ function Blog() {
     <div id="blog" className='content left-content'>
       <h2>Blog</h2>
       <section>
-        {renderArticles()}
+        {Articles()}
       </section>
     </div>
   )
