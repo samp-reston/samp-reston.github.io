@@ -33,11 +33,11 @@ function Footer() {
       }}>
         <a href="#blog">Blog</a>
       </h4>
-      <h4 style={{
+      {/* <h4 style={{
         fontWeight: 'normal'
       }}>
         Contact
-      </h4>
+      </h4> */}
     </div>
   )
 }

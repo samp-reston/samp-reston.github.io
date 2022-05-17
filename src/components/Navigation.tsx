@@ -14,8 +14,8 @@ function Navigation() {
       <h3><a href="#projects">Portfolio</a></h3>
       <a href="#blog"><img src={blogIcon} alt="About Me Icon" className='icons' /></a>
       <h3><a href="#blog">Blog</a></h3>
-      <img src={contactIcon} alt="About Me Icon" className='icons' />
-      <h3>Contact</h3>
+      {/* <img src={contactIcon} alt="About Me Icon" className='icons' />
+      <h3>Contact</h3> */}
     </nav>
   )
 }
