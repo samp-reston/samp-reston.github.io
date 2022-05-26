@@ -18,11 +18,11 @@ function Footer() {
       }}>
         <a href="#aboutme">About Me</a>
       </h4>
-      <h4 style={{
+      {/* <h4 style={{
         fontWeight: 'normal'
       }}>
         <a href="#myskills">My Skills</a>
-      </h4>
+      </h4> */}
       <h4 style={{
         fontWeight: 'normal'
       }}>
