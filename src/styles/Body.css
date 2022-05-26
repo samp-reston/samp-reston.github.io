@@ -125,6 +125,17 @@ a {
   gap: 2rem;
 }
 
+.header-socials>a {
+  transition: 0.3s;
+  border-radius: 1rem;
+  padding: 0.25em;
+}
+
+.header-socials>a:hover {
+  transform: translate(-10px, 0px);
+  box-shadow: 0px 0px 10px red;
+}
+
 section {
   display: flex;
   flex-direction: row;
@@ -148,7 +159,7 @@ li {
 }
 
 .content>div>h4 {
-  margin-top: 3rem;
+  margin-top: 0rem;
 }
 
 .blog-thumbnail>img {
@@ -174,4 +185,21 @@ li {
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
+}
+
+.project {
+  transition: 0.3s;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.project:hover {
+  transform: translate(-10px, 0px);
+  box-shadow: 4px 8px 5px rgba(77, 150, 255, 0.5);
+  transition: 0.2s;
+}
+
+.project:active {
+  transform: translate(-7px, 3px);
+  box-shadow: inset 1px 1px 5px rgba(0, 0, 0, .2);
 }

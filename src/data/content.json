@@ -35,7 +35,16 @@
         ]
       },
       {
-        "title": "Tennis League App (In Progress)",
+        "title": "Data Structures and Algorithm Learning Tools (WIP)",
+        "summary": "Website to help others develop knowledge and understanding of Data Structures and Algorithms. Allows users to directly interactive and jump into the process of algorithms and data structures manipulation.",
+        "description": [
+          "Typescript",
+          "Data Structures and Algorithms",
+          "APIs"
+        ]
+      },
+      {
+        "title": "Tennis League App (WIP)",
         "summary": "Compatible for both Android and iOS, you can invite friends to join leagues. Whether you're pro or casual, you can find new opponents or play with friends.",
         "description": [
           "React Native",

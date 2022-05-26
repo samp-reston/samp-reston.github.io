@@ -13,7 +13,7 @@ function Portfolio() {
       description: string[]
     }
     return content.map((project: Project) => (
-      <div key={uuidv4()}>
+      <div key={uuidv4()} className="project">
         <h4>
           {project.title}
         </h4>

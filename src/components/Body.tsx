@@ -26,9 +26,9 @@ function Body() {
         <Header />
         <HeaderSocials />
         <AboutMe />
-        <MySkills />
         <Portfolio />
         <Blog />
+        {/* <MySkills /> */}
         <Footer />
       </div>
     </QueryClientProvider>
