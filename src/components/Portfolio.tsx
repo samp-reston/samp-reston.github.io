@@ -16,7 +16,7 @@ function Portfolio() {
       description: string[]
     }
     return content.map((project: Project) => (
-      <div key={uuidv4()} className="project" onClick={() => project.url ? window.open(project.url, '_blank') : ""}>
+      <div key={uuidv4()} className="project" onClick={() => project.url ? window.open(project.url, '_blank') : ""} style={project.url ? { cursor: 'pointer' } : {}}>
         <h4>
           {project.title}
         </h4>
