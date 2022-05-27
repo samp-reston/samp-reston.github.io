@@ -26,6 +26,7 @@
     "content": [
       {
         "title": "Ansible Deployment within Domain Test Platform",
+        "url": "",
         "summary": "In-House tool to manage and track software versions and configurations to ensure traceability across 100+ assets.",
         "description": [
           "Ansible",
@@ -36,6 +37,7 @@
       },
       {
         "title": "Data Structures and Algorithm Learning Tools (WIP)",
+        "url": "https://github.com/samp-reston/algo-visualiser",
         "summary": "Website to help others develop knowledge and understanding of Data Structures and Algorithms. Allows users to directly interactive and jump into the process of algorithms and data structures manipulation.",
         "description": [
           "Typescript",
@@ -45,6 +47,7 @@
       },
       {
         "title": "Tennis League App (WIP)",
+        "url": "",
         "summary": "Compatible for both Android and iOS, you can invite friends to join leagues. Whether you're pro or casual, you can find new opponents or play with friends.",
         "description": [
           "React Native",
