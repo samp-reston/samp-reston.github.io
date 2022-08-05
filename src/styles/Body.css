@@ -60,7 +60,7 @@ content>li {
 
 #menu {
   position: fixed;
-  background: rgba(0, 6, 37, .2);
+  background: #000F1A;
   min-width: 64px;
   width: 20%;
   max-width: 16rem;
@@ -78,6 +78,7 @@ content>li {
 #menu.true {
   transform: translate3d(0vw, 0, 0);
   overflow: hidden;
+  z-index: 1;
 }
 
 nav {
