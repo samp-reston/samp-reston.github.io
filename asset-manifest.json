@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b2ff2802.css",
+    "main.js": "/static/js/main.8164134e.js",
+    "index.html": "/index.html",
+    "static/media/BxlGithub.svg": "/static/media/BxlGithub.d064db6de8c9f1a853d18f3008a788d9.svg",
+    "static/media/BxlDevTo.svg": "/static/media/BxlDevTo.980997dfec0e59e8571969ffab05a59c.svg",
+    "static/media/IcBaselineAlternateEmail.svg": "/static/media/IcBaselineAlternateEmail.978475dd48961ea60c5a55f454c886d2.svg",
+    "static/media/BxlLinkedin.svg": "/static/media/BxlLinkedin.e873a0c40cab64ba377ff8370101d819.svg",
+    "static/media/BxBxsUserAccount.svg": "/static/media/BxBxsUserAccount.9ed6550d743e302f7c48bb318c864e5e.svg",
+    "static/media/BxPencil.svg": "/static/media/BxPencil.da2bea75f75d5559181ceaf2a6da7b3a.svg",
+    "static/media/BxBxsKeyboard.svg": "/static/media/BxBxsKeyboard.52c85032677e0485544b381e7537d9e5.svg",
+    "main.b2ff2802.css.map": "/static/css/main.b2ff2802.css.map",
+    "main.8164134e.js.map": "/static/js/main.8164134e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b2ff2802.css",
+    "static/js/main.8164134e.js"
+  ]
+}
